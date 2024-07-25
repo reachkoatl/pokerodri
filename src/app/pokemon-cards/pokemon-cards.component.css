@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 10px;
+  background-color: green;
+  border-radius: 15px;
+  color: white;
+}
+
+.card-img-top {
+  width: 50%;
+  height: auto;
+  background-image: url('/assets/pokeball-background.png');}
