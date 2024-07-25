@@ -1,17 +1,26 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 10px;
-  background-color: green;
+
   border-radius: 15px;
   color: white;
+  width: 100%;
+  height: 200px;
 }
 
 .card-img-top {
   width: 50%;
   height: auto;
-  background-image: url('/assets/pokeball-background.png');}
+  background-image: url('/assets/pokeball-background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

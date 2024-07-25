@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col" *ngFor="let pokemon of pokemons">
-        <div class="card h-100">
+        <div class="card h-100" [ngStyle]="{'background-color': getColorByType(pokemon.type0)}">
           <img [src]="pokemon.image" class="card-img-top" alt="{{ pokemon.name }}">
           <div class="card-body">
             <h5 class="card-title">{{ pokemon.name | uppercase }}</h5>
             <p class="card-text">
-              {{ pokemon.height }}<br>
-              {{ pokemon.weight }}
+              {{ pokemon.type0 }}<br>
+              {{ pokemon.type1 }}
             </p>
           </div>
         </div>
