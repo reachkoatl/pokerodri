@@ -52,4 +52,5 @@ export class PokemonCardsComponent implements OnInit {
     return colors[type] || '#68A090'; // Color por defecto si el tipo no está definido
   }
 
+
 }
